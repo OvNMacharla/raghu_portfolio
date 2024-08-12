@@ -41,7 +41,7 @@ const Header = () => {
           >
             <img src={Emoji} className="h-12" alt="Logo" />
             <span className="self-center text-normal font-semibold whitespace-nowrap dark:text-white">
-              O V Nagarjuna
+              Raghu Vamsi Krishna. M
             </span>
           </a>
           <button
