@@ -1,0 +1,191 @@
+// src/data/userDetails.ts
+import {
+  UserDetailsType,
+  WorkDetail,
+  EducationDetail,
+  ExperienceDetail,
+  SkillsDetail,
+  Project,
+  Certification,
+  Appreciation,
+} from '../types/UserDetailsType.ts'
+import web from '../assets/icons/web.svg'
+import phoneIcon from '../assets/icons/phone.svg'
+import emailIcon from '../assets/icons/email.svg'
+import mapIcon from '../assets/icons/map.svg'
+import calenderIcon from '../assets/icons/calender.svg'
+import book from '../assets/icons/book.svg'
+import flavor from '../assets/flavor-sage.png'
+import todo from '../assets/todo.png'
+import emoji from '../assets/emoji.png'
+import portfolio from '../assets/portfolio.png'
+export const UserDetails: UserDetailsType[] = [
+  {
+    id: '1',
+    source: 'EMAIL',
+    value: 'raghumerugumala8324@gmail.com',
+    emoji: '',
+  },
+  {
+    id: '2',
+    source: 'PHONE',
+    value: '+1 2036272898',
+    emoji: '',
+  },
+  {
+    id: '4',
+    source: 'LOCATION',
+    value: 'New Haven, CT , 06511',
+    emoji: '',
+  },
+]
+
+export const workDetails: WorkDetail[] = [
+  {
+    id: '1',
+    title: 'Predictive Resource Allocation',
+    description:
+      'Accurately forecast the number of team members required for effective project management, ensuring optimal resource allocation based on project demands.',
+    emoji: web,
+  },
+  {
+    id: '2',
+    title: 'Efficient Task Management',
+    description:
+      'Expertly manage and streamline workflows, guaranteeing that all tasks are handled efficiently and effectively within set timelines.',
+    emoji: book,
+  },
+  {
+    id: '3',
+    title: 'Rapid Task Comprehension',
+    description:
+      'Demonstrate a keen ability to quickly understand and analyze tasks, enabling swift decision-making and smooth project execution.',
+    emoji: phoneIcon,
+  },
+]
+
+export const educationDetails: EducationDetail[] = [
+  {
+    id: '1',
+    institution: 'Cumberland University',
+    degree: 'Masters in Engineering Management / Industrial Engineering',
+    year: '2024 - 2025',
+  },
+  {
+    id: '2',
+    institution: 'NRI Institue of Technology',
+    degree: 'Bachelor in Mechanical Engineering',
+    year: '2020-2023',
+  },
+]
+
+export const experienceDetails: ExperienceDetail[] = [
+  {
+    id: '1',
+    title: 'Assistant Sales Manager',
+    company: 'RAAM HONDA',
+    location: 'Hyderabad',
+    period: 'April 2023 - July 2023',
+    responsibilities: [
+      'Led strategic sales initiatives by developing and implementing data-driven strategies, which not only contributed to achieving company targets but also optimized team performance. My role involved analyzing sales data to identify key trends, enabling informed decision-making, while also cultivating strong client relationships to ensure customer satisfaction and foster long-term partnerships.',
+    ],
+  },
+  {
+    id: '2',
+    title: 'Engineering Project Associate, Indian Railways',
+    company: 'South Indian Railway',
+    location: 'Vijayawada',
+    period: '2019',
+    responsibilities: [
+      ' Completed a six-month engineering project with Indian Railways, where I played a pivotal role in supporting key infrastructure initiatives. This experience enhanced my technical expertise in large-scale engineering projects and provided valuable insights into effective problem-solving and process optimization.',
+    ],
+  },
+]
+
+export const skillsDetails: SkillsDetail[] = [
+  {
+    id: '1',
+    skill: 'Networking and Relational Building',
+    percentage: '90%',
+  },
+  {
+    id: '2',
+    skill: 'Data Analysis and Decision Support',
+    percentage: '80%',
+  },
+  {
+    id: '3',
+    skill: 'Relationship Building',
+    percentage: '75%',
+  },
+  {
+    id: '4',
+    skill: 'Risk Management',
+    percentage: '75%',
+  },
+  {
+    id: '5',
+    skill: 'Strategic Planning',
+    percentage: '90%',
+  },
+]
+
+export const projects: Project[] = [
+  {
+    id: '1',
+    title: 'Modeling and Analysis of a Ceramic Coated IC Engine Piston Head',
+    objective:
+      'Conducted a comprehensive analysis of a ceramic-coated IC engine piston head using three different ceramic materials.',
+    methodology:
+      'Evaluated and compared the performance of Magnesium Zirconium Oxide (MgZrO3), Titanium Carbide, and Silicon Carbide coatings. The study focused on maximum temperature and heat flux distribution under operational conditions.',
+    outcome:
+      'The analysis revealed that the MgZrO3 coating provided the best thermal performance, making it the most suitable material for ceramic coatings in IC engine pistons. This project deepened my understanding of material science and its applications in mechanical engineering.',
+    link: 'https://2hac.page.link/tqQ3',
+    image: portfolio,
+  },
+  {
+    id: '2',
+    title: 'Fabrication of Solenoid Engine',
+    objective:
+      'Designed and fabricated a solenoid engine to demonstrate the principles of electro-magnetism in a mechanical system.',
+    methodology:
+      'Developed an engine model where pistons move based on electromagnetic forces generated by solenoids. The project involved electrical wiring, coil construction, and mechanical assembly.',
+    outcome:
+      'Successfully created a functional solenoid engine, showcasing the practical application of electromagnetism in converting electrical energy into mechanical motion. This project enhanced my skills in both electrical engineering and mechanical fabrication.',
+    link: '',
+    image: portfolio,
+  },
+  {
+    id: '3',
+    title: 'A Review on Performance of Solar-Powered Air Conditioning Systems',
+    objective:
+      'Conducted a comprehensive literature review on various solar-powered air conditioning technologies to assess their performance and viability.',
+    methodology:
+      'Investigated thermodynamic cycles and solar thermal conversion technologies, including desiccant dehumidification, adsorption cooling, and absorption cooling systems.',
+    outcome:
+      'The review provided insights into the effectiveness of different solar-powered air conditioning systems, contributing to the understanding of sustainable cooling technologies. This project developed my research and analytical skills, with a focus on renewable energy applications.',
+    link: '',
+    image: portfolio,
+  },
+]
+
+export const certifications: Certification[] = [
+  // {
+  //   id: '1',
+  //   title: 'Build Your Own Static Website',
+  //   issuer: 'CCBP 4.0 Academy',
+  //   date: 'Issued May 2022',
+  //   link: 'https://certificates.ccbp.in/academy/static-website?id=RGMAOXGDXX',
+  // }
+]
+
+export const appreciations: Appreciation[] = [
+  {
+    id: '1',
+    title: 'Event Management Appreciation Award',
+    organization: 'NRI Institue of Technology',
+    date: 'June 2022',
+    description:
+      'Recognized for exceptional leadership and organizational skills in managing a major college event. Successfully coordinated multiple teams, handled logistics, and ensured the event success, earning commendations from faculty and peers for delivering a seamless and memorable experience.',
+  },
+]
